@@ -25,7 +25,7 @@ public class ShowDisLikeUser extends AppCompatActivity {
     }
 
     private void init() {
-        rvDisliked=findViewById(R.id.rvLiked);
+        rvDisliked=findViewById(R.id.rvDisLiked);
         linearLayoutManager=new LinearLayoutManager(this);
         rvDisliked.setLayoutManager(linearLayoutManager);
     }
